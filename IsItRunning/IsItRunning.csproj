@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DDAC05C1-792C-4785-94CB-8A2617645159}</ProjectGuid>
+    <ProjectGuid>{D5108D2A-06E8-446A-9DE9-8E9E155C888B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>IsItRunning</RootNamespace>
     <AssemblyName>IsItRunning</AssemblyName>
@@ -75,11 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="IsItRunning.resx">
-      <DependentUpon>IsItRunning.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

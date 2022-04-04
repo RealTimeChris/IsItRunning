@@ -1,0 +1,8 @@
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\bin\x64\Release\IsItRunning.exe.config
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\bin\x64\Release\IsItRunning.exe
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\bin\x64\Release\IsItRunning.pdb
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\obj\x64\Release\IsItRunning.csproj.AssemblyReference.cache
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\obj\x64\Release\IsItRunning.csproj.SuggestedBindingRedirects.cache
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\obj\x64\Release\IsItRunning.csproj.CoreCompileInputs.cache
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\obj\x64\Release\IsItRunning.exe
+C:\Users\Chris\source\repos\IsItRunning\IsItRunning\obj\x64\Release\IsItRunning.pdb

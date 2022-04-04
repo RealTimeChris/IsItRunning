@@ -1,5 +1,4 @@
-﻿
-namespace IsItRunning
+﻿namespace IsItRunning
 {
     partial class IsItRunning
     {
@@ -29,11 +28,8 @@ namespace IsItRunning
         /// </summary>
         private void InitializeComponent()
         {
-            // 
-            // IsItRunning
-            // 
-            this.ServiceName = "IsItRunning";
-
+            components = new System.ComponentModel.Container();
+            this.ServiceName = "Service1";
         }
 
         #endregion
