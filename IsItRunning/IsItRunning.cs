@@ -19,7 +19,7 @@ namespace IsItRunning
         }
         public void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            string processName01 = "MBot-GameHouse";
+            string processName01 = "MBot-GameHouse-Cpp.exe";
             Process[] results = Process.GetProcessesByName(processName01);
             if (results.Length == 1)
             {
@@ -33,7 +33,7 @@ namespace IsItRunning
                 startInfo.RedirectStandardOutput = true;
                 startInfo.RedirectStandardError = true;
                 startInfo.UseShellExecute = false;
-                startInfo.CreateNoWindow = false;
+                startInfo.CreateNoWindow = true;
                 Process process = new Process();
                 process.StartInfo = startInfo;
                 process.Start();
