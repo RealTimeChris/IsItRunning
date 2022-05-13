@@ -7,6 +7,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace IsItRunning
 {
@@ -18,7 +19,7 @@ namespace IsItRunning
         }
         public void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            string processName01 = "MBot-Janny-Cpp";
+            string processName01 = "MBot-GameHouse";
             Process[] results = Process.GetProcessesByName(processName01);
             if (results.Length == 1)
             {
@@ -27,12 +28,12 @@ namespace IsItRunning
             else if (results.Length == 0)
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo();
-                startInfo.FileName = "powershell.exe";
-                startInfo.Arguments = @"C:\Users\Chris\source\repos\BotRunning\BootAndSave-Janny.ps1";
+                startInfo.FileName = @"C:\Program Files\PowerShell\7\pwsh.exe";
+                startInfo.Arguments = @"C:\Users\Chris\source\repos\BotRunning\BootAndSave-GameHouse.ps1";
                 startInfo.RedirectStandardOutput = true;
                 startInfo.RedirectStandardError = true;
                 startInfo.UseShellExecute = false;
-                startInfo.CreateNoWindow = true;
+                startInfo.CreateNoWindow = false;
                 Process process = new Process();
                 process.StartInfo = startInfo;
                 process.Start();
