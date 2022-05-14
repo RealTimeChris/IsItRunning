@@ -19,7 +19,7 @@ namespace IsItRunning
         }
         public void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            string processName01 = "MBot-Janny-Cpp";
+            string processName01 = "MBot-MusicHouse-Cpp";
             Process[] results = Process.GetProcessesByName(processName01);
             if (results.Length == 1)
             {
@@ -29,7 +29,7 @@ namespace IsItRunning
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo();
                 startInfo.FileName = @"C:\Program Files\PowerShell\7\pwsh.exe";
-                startInfo.Arguments = @"C:\Users\Chris\source\repos\BotRunning\BootAndSave-Janny.ps1";
+                startInfo.Arguments = @"C:\Users\Chris\source\repos\BotRunning\BootAndSave-MusicHouse.ps1";
                 startInfo.RedirectStandardOutput = true;
                 startInfo.RedirectStandardError = true;
                 startInfo.UseShellExecute = false;
